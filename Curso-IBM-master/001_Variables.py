@@ -4,7 +4,7 @@
 # -----------------------------------------------------------
 
 # Declaración de variable numérica entera:
-n_edad = 47
+n_edad = 48
 
 # Declaración de variable numérica de coma flotante:
 n_numero = -23.5245
