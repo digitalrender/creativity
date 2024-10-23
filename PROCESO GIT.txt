@@ -3,8 +3,42 @@ ___________________________________________
 
 Copiar opciones después de crear nuevo repositorio en GitHub:
 
-- git init
-- git commit -m "first comit"
-- git branch -M main
-- git remote add origin htt://......el enlace .git
-- git push -u origin main
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/digitalrender/workspace-online.git
+git push -u origin main
+
+
+CÓMO FUNCIONA GIT
+
+1- Trabajamos con un archivo 
+2- Guardamos cambios
+3- Se guardan en el directorio mío local
+4- Si se guarda en Git se guardan dos versiones / histórico de versiones para volver atrás
+5- Se va haciendo foto (un commit) una instantánea de cómo está el archivo en ese momento (v.1, v2, v3..)
+6- Con git volvemos a versiones anteriores para poder ver y recuperar si nos hemos equivocado hoy en la última versión
+7- Se puede trabajar con el mismo archivo varias personas (no se pisan el trabajo) Cada uno hace una versión del trabajo y al final del día se hace un MERGE (SE UNEN TODAS)
+8- Primero trabajo disco duro en mi directorio (se tiene que convertir en repositorio para que muchas personas puedan trabajar juntas)
+
+MANUALMENTE
+
+1- Abrimos consola en el directorio de trabajo donde estarán nuestros archivos
+2- En la consola de git-bash escribimos.
+3- git init (inicias el seguimiento de git en ese directorio de trabajo)
+4- git add (coge los archivos y los pasa en una "staging area" o sala de espera). ---> en el disco duro
+   git add + nombre archivo o si son todos git add . (espacio y el punto)
+5- al final del día lo pasamos al repositorio definitivo (en común) 
+6- git commit -m "mensaje version 1" 
+7- git remote add origin https://github.com/digitalrender/workspace-online.git
+
+RESPUESTA 
+[main (root-commit) ce9fe62] envio primero
+ 5 files changed, 119 insertions(+)
+ create mode 100644 001_Variables.py
+ create mode 100644 002_Casting.py
+ create mode 100644 a1.txt
+ create mode 100644 desktop.ini
+ create mode 100644 index.html
+
