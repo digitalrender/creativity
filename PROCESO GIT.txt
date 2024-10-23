@@ -1,0 +1,10 @@
+PASOS PROCESO GIT Y GITHUB
+___________________________________________
+
+Copiar opciones después de crear nuevo repositorio en GitHub:
+
+- git init
+- git commit -m "first comit"
+- git branch -M main
+- git remote add origin htt://......el enlace .git
+- git push -u origin main
